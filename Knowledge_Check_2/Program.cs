@@ -11,7 +11,8 @@ for (int i = 0; i < numberOfRecords; i++)
     // In this loop, populate the object's properties using Console.ReadLine()
     CityAddress address = new CityAddress();
 
-    Console.WriteLine("Enter the values for your address.");
+    Console.WriteLine("Enter the values for your address " +
+        "(State, zip code, city, street name, street number).");
     address.State = Console.ReadLine();
     address.ZipCode = Console.ReadLine();
     address.CityName = Console.ReadLine();
